@@ -1,0 +1,7 @@
+.bg-color{background: rgb(70,55,167);
+background: linear-gradient(113deg, rgba(70,55,167,1) 11%, rgba(0,0,0,1) 100%);
+}
+
+.text-weight{
+    font-weight: 700;
+}

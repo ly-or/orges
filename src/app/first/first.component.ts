@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class FirstComponent {
 
+  counter = 0
+
+  countFunc(type: string){
+    if(type == 'minus'){
+      this.counter--
+    }else if(type == 'plus')
+    {
+      this.counter++
+    }else if(type == 'reset'){
+      this.counter = 0
+    }
+  }
+
 }
