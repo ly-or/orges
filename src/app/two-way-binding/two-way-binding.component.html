@@ -1,0 +1,15 @@
+<div class="container my-4"> 
+    
+    <label>Input</label>
+    <input class="form-control" 
+           [(ngModel)]="inputField "   >
+    
+    
+    <button type="button" 
+            [disabled]="inputField === '' " 
+            class="btn btn-primary"  
+            (click)="resetButton()">Reset</button>
+
+    <h4>{{inputField}}</h4>
+
+</div>
